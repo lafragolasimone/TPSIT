@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Times New Roman", serif;
+  background: #f3f0ff;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  background: #f3f0ff;
+  padding: 30px;
+  border-radius: 18px;
+  width: 90%;
+  max-width: 900px;
+  text-align: center;
+}
+
+h1.titoloPrincipale {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #6a5acd;
+}
+
+.bottoneContainer {
+  margin-bottom: 20px;
+}
+
+input[type="button"] {
+  padding: 10px 22px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  background: #a8d8ff;
+  cursor: pointer;
+}
+
+input[type="button"]:hover {
+  background: #90caff;
+}
+
+#demo {
+  margin-top: 15px;
+}
+
+.tabellaAnagrafica {
+  margin: 0 auto;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: #ffffff;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 2px solid #d8d7f0;
+}
+
+.tabellaAnagrafica th {
+  background: #dcd6ff;
+  padding: 12px;
+  text-align: center;
+}
+
+.tabellaAnagrafica td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #e8e6ff;
+}
+
+.tabellaAnagrafica tr:nth-child(even) td {
+  background: #f7f5ff;
+}
+
+.tabellaAnagrafica tr:last-child td {
+  border-bottom: none;
+}
+
+.tabellaAnagrafica tr:hover td {
+  background: #ece7ff;
+}
