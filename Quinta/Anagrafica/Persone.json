@@ -1,0 +1,51 @@
+[
+  {
+    "nome": "Simone",
+    "cognome": "La Fragola",
+    "eta": 18,
+    "nazionalita": "Italiana",
+    "scuola": "ITIS Cannizzaro"
+  },
+  {
+    "nome": "Davide",
+    "cognome": "Picchio",
+    "eta": 18,
+    "nazionalita": "Italiana",
+    "scuola": "IIS Tecnologico Novara"
+  },
+  {
+    "nome": "Ergilberto",
+    "cognome": "Leoncino",
+    "eta": 12,
+    "nazionalita": "Italiana",
+    "scuola": "Scuola Media Galileo"
+  },
+  {
+    "nome": "Maria",
+    "cognome": "Gialli",
+    "eta": 17,
+    "nazionalita": "Italiana",
+    "scuola": "Liceo Scientifico Verdi"
+  },
+  {
+    "nome": "Alex",
+    "cognome": "Ramos",
+    "eta": 19,
+    "nazionalita": "Spagnola",
+    "scuola": "IIS Tecnologico Novara"
+  },
+  {
+    "nome": "Luca",
+    "cognome": "Balsamà",
+    "eta": 18,
+    "nazionalita": "Italo-Albanese",
+    "scuola": "ITIS Cannizzaro"
+  },
+  {
+    "nome": "Thomas",
+    "cognome": "Grassi",
+    "eta": 18,
+    "nazionalita": "Italiana",
+    "scuola": "ITIS Cannizzaro"
+  }
+]

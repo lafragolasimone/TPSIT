@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<TITLE>ANAGRAFICA PERSONALE</TITLE>
+    <style>
+
+        h1{
+            text-align: center;
+            color:rgb(0, 0, 0);
+            font-size: 40px;
+            padding-bottom: 30px;
+        } 
+        p{
+            color: rgb(0, 0, 0);
+            font-family:'Times New Roman', Times, serif;
+            padding-left: 5%;
+        }
+        body{
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: rgb(255, 255, 255);
+        }
+        table {
+            width: 65%;
+            margin: 0 auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 15px;
+            text-align: center;
+            border: 2px solid rgb(80, 76, 76);
+            font-size: 30px;
+            color: rgb(0, 0, 0);
+            font-family:'Times New Roman', Times, serif;
+        }
+
+    </style>
+
+<script>
+
+function stampaElementi() {
+var a=document.getElementById("demo").value
+document.getElementById("dest").innerHTML=a
+var b=document.getElementById("demo1").value
+document.getElementById("dest1").innerHTML=b
+var c=document.getElementById("demo2").value
+document.getElementById("dest2").innerHTML=c
+}
+
+</script>
+</head>
+<body>
+    <CENTER>
+        <h1>Anagrafica personale</h1>
+        <p> Nome:
+        <input type="text" id="demo">
+            <input type="button" value="Clicca qui" onclick="stampaElementi()">
+        </p>
+        <p> Cognome:
+        <input type="text" id="demo1">
+            <input type="button" value="Clicca qui" onclick="stampaElementi()">
+        </p>
+        <p> Indirizzo:
+        <input type="text" id="demo2">
+            <input type="button" value="Clicca qui" onclick="stampaElementi()">
+        </p>
+    </CENTER>
+
+    <CENTER>
+        <table>
+            <th colspan="3" style="color: rgb(0, 0, 0); text-align: center;">Tabella sui dati</th>
+            <tr>
+            <th>Nome:</th>
+            <th>Cognome:</th>
+            <th>Via:</th>
+            </tr>
+            <tr>
+            <td><p id="dest"></p></td>
+            <td><p id="dest1"></p></td>
+            <td><p id="dest2"></p></td>
+            </tr>
+            </table>
+    </CENTER>
+
+</body>
+</html>

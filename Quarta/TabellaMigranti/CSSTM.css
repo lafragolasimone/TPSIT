@@ -1,0 +1,38 @@
+body {
+    font-family: Arial;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #2c4d2d;
+    font-size: 24px;
+    margin: 20px 0;
+}
+input[type="file"] {
+    display: block;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid #3f7a41;
+    border-radius: 3px;
+    background-color: #fff;
+    cursor: pointer;
+}
+table {
+    width: 90%;
+    margin: 20px auto;
+}
+table, th, td {
+    border: 1px solid #ddd;
+}
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+th {
+    background-color: #4CAF50;
+    color: #fff;
+}

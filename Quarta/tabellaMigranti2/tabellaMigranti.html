@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSV Viewer e Disegno</title>
+    <link rel="stylesheet" href="tmCSS.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Tabella Migranti 2</h1>
+        <p>
+            Carica un file
+        </p>
+
+        <input type="file" class="file-input" onchange="caricaFile(this)" accept=".csv">
+        
+        <table id="tabellaCsv"></table>
+        
+        <canvas id="grafico" width="800" height="400"></canvas>
+    </div>
+
+    <script src="tmjs.js"></script>
+</body>
+</html>
